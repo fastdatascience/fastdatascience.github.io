@@ -4,15 +4,38 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Fast Data Science
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Fast Data Science Ltd is a consulting company offering data science and natural language processing services.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+We provide Data Science and Data Strategy consulting, specialising in text, images, unstructured data, healthcare, pharmaceuticals.
 
+Read more [on our website](https://fastdatascience.com/).
 
-[jekyll-organization]: https://github.com/jekyll
+# Open source projects (MIT licence)
+
+* [The Harmony project (Github repo)](https://github.com/harmonydata/harmony) - Harmony is a tool and research project using natural language processing to harmonise mental health data. Read more at https://harmonydata.org and try the demo at https://app.harmonydata.org/.
+
+* [Clinical Trial Risk Tool (Github repo)](https://github.com/fastdatascience/clinical_trial_risk) - a tool using natural language processing to categorise clinical trial protocols (PDFs) into high, medium or low risk. Read more at https://clinicaltrialrisk.org/ and try the demo at https://app.clinicaltrialrisk.org/.
+
+# Other open source libraries
+
+* [Localspelling (Github repo)](https://github.com/fastdatascience/localspelling) - a library for localising spelling between US and UK variants - install from the command line with `pip install localspelling`
+
+* [country_named_entity_recognition (Github repo)](https://github.com/fastdatascience/country_named_entity_recognition) - a lightweight Python library for recognising country names in unstructured text and returning Pycountry objects `pip install country_named_entity_recognition`
+
+* [Fast Stylometry (Github repo)](https://github.com/fastdatascience/faststylometry) - a Python library for forensic stylometry.  `pip install faststylometry`. [Read tutorial](https://freelancedatascientist.net/fast-stylometry-tutorial/).
+
+# Blog
+
+We regularly post on [Fast Data Science's blog](https://fastdatascience.com/blog/).
+
+Popular posts include
+
+* [Training machine learning models from sensitive data](https://fastdatascience.com/sensitive-data-machine-learning-model/)
+* [The key stages of a data science project](https://fastdatascience.com/the-key-stages-of-a-data-science-project/)
+
+# Contact
+
+You can contact us [on our website](https://fastdatascience.com/contact-2/).
+
