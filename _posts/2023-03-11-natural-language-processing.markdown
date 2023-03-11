@@ -40,6 +40,8 @@ When I first started in the field in 2007 (studying a [Masters](https://freelanc
 
 # How is NLP used in business?
 
+Here are a few examples of common business applications of natural language processing.
+
 | Business function 	| Application of NLP                                                                                                                                                                                                                            	|
 |-------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Customer service  	| Chatbots on company websites. These reduce call centre costs and allow companies to run analytics on chat logs.                                                                                                                               	|
