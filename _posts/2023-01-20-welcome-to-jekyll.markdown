@@ -11,7 +11,7 @@ We are taking on lots of exciting projects in 2023!
 * We have a preprint [publication](https://osf.io/unj7p) of a technical paper about Harmony.
 * We have a paper about the [Clinical Trial Risk Tool](https://clinicaltrialrisk.org/) also on the way!
 * We are participating in a legal reasoning workshop.
-* We are still working for White Ribbon Alliance on dashboards and text processing.
+* We are still working with [White Ribbon Alliance](https://whiteribbonalliance.org/) on [dashboards and text processing](https://fastdatascience.com/nlp-dashboard/).
 * We've been collaborating on a YouTube video with [NiklasOPF](https://www.youtube.com/channel/UC5yHSsQrYNL663gk6p36GiQ), who does a series of videos on data science and business. Watch this space!
 
 Read more on our [blog](https://fastdatascience.com/blog)!
