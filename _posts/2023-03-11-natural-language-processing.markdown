@@ -80,8 +80,11 @@ If your language of choice is Python, this book will help you get off the ground
 
 The [Deep Learning Textbook](https://www.deeplearningbook.org/) is a great comprehensive guide to everything related to machine learning and neural networks. It will help you understand the theory, whereas the NLTK book above is about practice.
 
-# Video series: Hugo Larochelle
+## Video series: Hugo Larochelle
 
 Hugo Larochelle from the Université de Montréal has put an [excellent series of video lectures online](https://www.youtube.com/watch?v=ciNBQupWsAc).
 
 
+# Getting started with Natural Language Processing
+
+If you have a large number of unstructured documents and you are struggling to extract value from them, please get in touch with us at [fastdatascience.com](https://fastdatascience.com/contact-2/).
