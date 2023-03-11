@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Fast Data Science
-description: >- Fast Data Science Ltd is a consulting company offering data science and natural language processing services. We provide Data Science and Data Strategy consulting, specialising in text, images, unstructured data, healthcare, pharmaceuticals. Read more at https://fastdatascience.com
+description: Fast Data Science Ltd is a consulting company offering data science and natural language processing services. We provide Data Science and Data Strategy consulting, specialising in text, images, unstructured data, healthcare, pharmaceuticals. Read more at https://fastdatascience.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fastdatascience.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fastdatascienc1
