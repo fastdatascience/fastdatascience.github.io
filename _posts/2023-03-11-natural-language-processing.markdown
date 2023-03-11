@@ -19,8 +19,6 @@ You might be tempted to read through a sample of the documents and summarise the
 
 Unfortunately we don't yet have a tool as simple as Excel for analysing unstructured text data. But there is a whole field of study dedicated to this kind of problem: Natural language processing (NLP).
 
-![inspection report](/assets/inspection-report.gif)
-
 Computers are very good at calculating faster than we can - for example, averaging numbers to find the mean customer spend. But they are not so good at unstructured data, although they are getting better.
 
 If I was tasked with synthesising faults from homeowner documents like in my above example, I would proceed as follows:
@@ -31,6 +29,8 @@ If I was tasked with synthesising faults from homeowner documents like in my abo
 * depending on the business analysis, potentially run the text data through an algorithm such as [LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), which could identify clusters (topics) in the document.
 * if necessary, hand-label some examples and train a classifier which can categorise a new incoming document into electrical, damp, structural, scratch, etc (whichever categories we decide on)
 * the business may want a deployed classifier which can triage incoming documents, or assign them to high or low risk, cost, complexity, or identify other information in the documents which help business processes.
+
+![inspection report](/assets/inspection-report.gif)
 
 # Why is NLP important?
 
