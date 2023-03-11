@@ -11,7 +11,7 @@ Has your boss ever asked you to make a summary in Excel of how much all your cus
 
 But what if your company processes fixes to new-build houses. Every homeowner sends in a form with the problems (electrical fault, damp, damaged plasterboard) described in plain text. Your boss asks you to find the commonest construction faults. These are all in PDF files submitted by homeowners. How could you do this in Excel? Where would you even start?
 
-![homeowner](../assets/homeowner.gif)
+![homeowner](/assets/homeowner.gif)
 
 You might be tempted to read through a sample of the documents and summarise them qualitatively for your boss. Of course, this is not a bad idea, and will give you insights. But we can do more...
 
@@ -19,7 +19,7 @@ You might be tempted to read through a sample of the documents and summarise the
 
 Unfortunately we don't yet have a tool as simple as Excel for analysing unstructured text data. But there is a whole field of study dedicated to this kind of problem: Natural language processing (NLP).
 
-![inspection report](../assets/inspection-report.gif)
+![inspection report](/assets/inspection-report.gif)
 
 Computers are very good at calculating faster than we can - for example, averaging numbers to find the mean customer spend. But they are not so good at unstructured data, although they are getting better.
 
@@ -64,7 +64,7 @@ There are some excellent books and videos which I would recommend:
 
 ## Speech and Language Processing by Jurafsky and Martin
 
-![Jurafsky and Martin](assets/jurafsky_martin-1-min.jpg)
+![Jurafsky and Martin](/assets/jurafsky_martin-1-min.jpg)
 
 *Speech and Language Processing* was my core textbook when I studied my Masters in NLP in 2008 and is still top of the list. *Speech and Language Processing* is a general overview of traditional and modern approaches in the field, encompassing the two subfields of text and speech which are sometimes dealt with separately. Daniel Jurafsky and James H. Martin have kept their book up-to-date with new developments in the field, such as word vector representations. The book has a strong applied focus that allows users to apply their skills in real-world situations, and the authors have put the third edition draft [online](https://web.stanford.edu/~jurafsky/slp3/).
 
