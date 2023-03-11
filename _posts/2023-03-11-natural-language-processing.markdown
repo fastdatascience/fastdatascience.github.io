@@ -85,6 +85,20 @@ The [Deep Learning Textbook](https://www.deeplearningbook.org/) is a great compr
 Hugo Larochelle from the Université de Montréal has put an [excellent series of video lectures online](https://www.youtube.com/watch?v=ciNBQupWsAc).
 
 
+# Resources for planning a Natural Language Processing project
+
+![NLP resources](/assets/nlp-resources-min.png)
+
+NLP is unfortunately less straightforward than some fields such as software engineering. It is often hard to ascertain at the outset, whether a project will be feasible, and what kind of results can be extracted.
+
+When you're beginning a data science or NLP initiative in an organisation, I would recommend that you identify a number of candidate projects and quantify the technical effort required *and* the business impact of each one. This will help you to prioritise. You can try using this [data science roadmap template](https://fastdatascience.com/wp-content/uploads/2023/02/data-science-roadmap-planner.pdf), which provides a handy table to fill out.
+
+I find it's also informative to identify the risks associated with a project. Some risk factors are general to project management, and others are unique to NLP. I have put together a list of high-risk and medium-risk indicators [here](https://fastdatascience.com/wp-content/uploads/2023/02/NLP-project-risk-tool.pdf).
+
+Finally, although [data science projects don't always lend themselves to traditional project management patterns](https://fastdatascience.com/data-science-project-management/), it's still an informative exercise to put together a rough Gantt chart for your project. You can try this interactive [NLP project planner](https://fastdatascience.com/nlp-project-planner/) which allows you to choose the parameters of your project, and will generate a Gantt chart for you.
+
+There are a number of other handy resources for NLP project planning and management on the [Resources](https://fastdatascience.com/resources/) section of our website.
+
 # Getting started with Natural Language Processing
 
 If you have a large number of unstructured documents and you are struggling to extract value from them, please get in touch with us at [fastdatascience.com](https://fastdatascience.com/contact-2/).
