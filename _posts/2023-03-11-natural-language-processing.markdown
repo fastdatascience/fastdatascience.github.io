@@ -64,7 +64,7 @@ There are some excellent books and videos which I would recommend:
 
 ## Speech and Language Processing by Jurafsky and Martin
 
-![Jurafsky and Martin](/assets/jurafsky_martin-1-min.jpg)
+![Jurafsky and Martin](/assets/jurafsky_martin.jpg)
 
 *Speech and Language Processing* was my core textbook when I studied my Masters in NLP in 2008 and is still top of the list. *Speech and Language Processing* is a general overview of traditional and modern approaches in the field, encompassing the two subfields of text and speech which are sometimes dealt with separately. Daniel Jurafsky and James H. Martin have kept their book up-to-date with new developments in the field, such as word vector representations. The book has a strong applied focus that allows users to apply their skills in real-world situations, and the authors have put the third edition draft [online](https://web.stanford.edu/~jurafsky/slp3/).
 
