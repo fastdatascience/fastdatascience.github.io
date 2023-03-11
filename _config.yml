@@ -1,74 +1,39 @@
-lang:                  en
-title:                 Hydejack
-copyright:             © 2021. All rights reserved.
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
-theme_color:           rgb(25,55,71)
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Fast Data Science
+description: Fast Data Science Ltd is a consulting company offering data science and natural language processing services. We provide Data Science and Data Strategy consulting, specialising in text, images, unstructured data, healthcare, pharmaceuticals. Read more at https://fastdatascience.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fastdatascience.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: fastdatascienc1
+github_username:  fastdatascience
 
-google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
-font:                  Noto Sans, Helvetica, Arial, sans-serif
-font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
-font-code:             ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
-hydejack:
-  post_addons:         [about, newsletter, related, random, comments]
-  project_addons:      [about, newsletter, other, comments]
-
-  no_mark_external:    false
-  no_push_state:       false
-  no_drawer:           false
-  no_navbar:           false
-  no_search:           false
-  no_inline_css:       false
-  no_page_style:       false
-  no_break_layout:     true
-  no_toc:              false
-  no_third_column:     false
-  no_large_headings:   false
-  no_structured_data:  false
-  no_theme_color:      false
-  no_breadcrumbs:      false
-
-  use_lsi:             true
-  cookies_banner:      true
-  advertise:           true
-  hide_dates:          false
-  hide_last_modified:  false
-
-  dark_mode:
-    always:            false
-    dynamic:           true
-    sunrise:           6
-    sunset:            18
-    icon:              true
-
-  offline:
-    enabled:           false
-    cache_version:     1
-    precache_assets:
-      - /assets/img/swipe.svg
-
-optional_front_matter:
-  remove_originals:    true
-
-readme_index:
-  remove_originals:    true
-  with_frontmatter:    true
-
-relative_links:
-  collections:         true
-
-titles_from_headings:
-  strip_title:         true
-  collections:         true
-
-compress_html:
-  comments:            ["<!-- ", " -->"]
-  clippings:           all
-  endings:             all
-  ignore:
-    envs:              [development]
-
-sass:
-  style:               compressed
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
