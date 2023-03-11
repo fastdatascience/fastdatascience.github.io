@@ -1,25 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "An update from Fast Data Science!"
 date:   2023-01-20 00:05:28 +0000
-categories: jekyll update
+categories: fds update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+We are taking on lots of exciting projects in 2023!
 
-Jekyll also offers powerful support for code snippets:
+* The team working on [Harmony](https://harmonydata.org) has just been approved by the Wellcome Trust to proceed to the prototype phase of the Wellcome Trust Mental Health Data Prize!
+* We have a preprint [publication](https://osf.io/unj7p) of a technical paper about Harmony.
+* We have a paper about the [Clinical Trial Risk Tool](https://clinicaltrialrisk.org/) also on the way!
+* We are participating in a legal reasoning workshop.
+* We are still working for White Ribbon Alliance on dashboards and text processing.
+* We've been collaborating on a YouTube video with [NiklasOPF](https://www.youtube.com/channel/UC5yHSsQrYNL663gk6p36GiQ), who does a series of videos on data science and business. Watch this space!
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Read more on our [blog](https://fastdatascience.com/blog)!
