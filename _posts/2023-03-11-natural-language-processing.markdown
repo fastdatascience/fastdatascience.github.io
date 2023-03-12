@@ -128,3 +128,7 @@ There are a number of other handy resources for NLP project planning and managem
 # Getting started with Natural Language Processing
 
 If you have a large number of unstructured documents and you are struggling to extract value from them, please get in touch with us at [fastdatascience.com](https://fastdatascience.com/contact-2/).
+
+# About the author
+
+| ![Thomas](/assets/Thomas.jpg)                	| [Thomas Wood](https://freelancedatascientist.net/) is the director of Fast Data Science Ltd. He has more than 12 years' experience in natural language processing and machine learning. He has consulted for large organisations such as Tesco and the NHS, and recently has specialised in [NLP for the pharmaceutical industry](https://clinicaltrialrisk.org/nlp-in-pharma/). 	|
