@@ -7,6 +7,8 @@ categories: natural language processing
 
 [Natural Language processing](https://fastdatascience.com/portfolio/natural-language-processing/) is everything to do with getting computers to understand human language. It's a branch of AI but is really a mixture of disciplines such as linguistics, computer science, and engineering.
 
+# Why would I need Natural Language Processing?
+
 Has your boss ever asked you to make a summary in Excel of how much all your customers spend? If the data is in an Excel already, then the task is easy.
 
 But what if your company processes fixes to new-build houses. Every homeowner sends in a form with the problems (electrical fault, damp, damaged plasterboard) described in plain text. Your boss asks you to find the commonest construction faults. These are all in PDF files submitted by homeowners. How could you do this in Excel? Where would you even start?
@@ -17,7 +19,7 @@ You might be tempted to read through a sample of the documents and summarise the
 
 # Natural Language Processing
 
-Unfortunately we don't yet have a tool as simple as Excel for analysing unstructured text data. But there is a whole field of study dedicated to this kind of problem: Natural language processing (NLP).
+Unfortunately we don't yet have a tool as simple as Excel for analysing unstructured text data. But there is a whole field of study dedicated to this kind of problem: [Natural language processing (NLP)](https://fastdatascience.com/portfolio/natural-language-processing/).
 
 Computers are very good at calculating faster than we can - for example, averaging numbers to find the mean customer spend. But they are not so good at unstructured data, although they are getting better.
 
@@ -36,7 +38,9 @@ If I was tasked with synthesising faults from homeowner documents like in my abo
 
 Natural language processing helps us convert unstructured data sources, such as an unorganised set of documents, into structured values that a computer can process. Human language is very complex and hard to model. For example, linguists have debated for years which category human languages fall into in the [Chomsky Hierarchy of Languages](https://en.wikipedia.org/wiki/Chomsky_hierarchy).
 
-When I first started in the field in 2007 (studying a [Masters](https://freelancedatascientist.net/freelance-data-scientist-cv/)), there was a lot of focus in NLP on developing sets of rules to model a language such as English. This is incredibly difficult and NLP systems would often break down when they encountered unfamiliar inputs (such as a strange sentence structure, slang, spelling and grammar mistakes, or unseen languages and vocabulary). Now, the field has moved towards more data-driven approaches, where tech giants such as Google can train large language models (LLMs) on terabytes of data, without needing a linguist to laboriously hand-code a language's grammar into a programming language. But the problem remains, that unstructured data is difficult to handle. Organisations with large amounts of documents are often sitting on an untapped goldmine because they do not have the expertise in-house to extract value from their text data. In any industry with large amounts of documents, such as legal, pharma, insurance, construction, regulation, R&D, or humanities research, a company which can leverage its in-house text data will naturally get a head start on its competitors.
+When I first started in the field in 2007 (studying a [Masters](https://freelancedatascientist.net/freelance-data-scientist-cv/)), there was a lot of focus in NLP on developing sets of rules to model a language such as English. This is incredibly difficult and NLP systems would often break down when they encountered unfamiliar inputs (such as a strange sentence structure, slang, spelling and grammar mistakes, or unseen languages and vocabulary).
+
+Now, the field has moved towards more data-driven approaches, where tech giants such as Google can train large language models (LLMs) on terabytes of data, without needing a linguist to laboriously hand-code a language's grammar into a programming language. But the problem remains, that unstructured data is difficult to handle. Organisations with large amounts of documents are often sitting on an untapped goldmine because they do not have the expertise in-house to extract value from their text data. In any industry with large amounts of documents, such as legal, pharma, insurance, construction, regulation, R&D, or humanities research, a company which can leverage its in-house text data will naturally get a head start on its competitors.
 
 # How is NLP used in business?
 
@@ -58,7 +62,27 @@ Here are a few examples of common business applications of natural language proc
 There are two main approaches to NLP: symbolic NLP and statistical NLP, although a hybrid is becoming more popular.
 
 * Symbolic NLP was the dominant approach from the 1950s to the 1990s, and involved programmers coding grammar rules and ontologies into a system, cataloguing real-world and linguistic knowledge.
-* Statistical NLP is currently the dominant approahc, where machine learning algorithms such as neural networks are trained on vast corpora of data, and learn common patterns without being taught the grammar of a language.
+* Statistical NLP is currently the dominant approach, where machine learning algorithms such as neural networks are trained on vast corpora of data, and learn common patterns without being taught the grammar of a language.
+
+# What are the challenges of NLP?
+
+Human language is very complex and hard to codify. Even the rules in a grammar book are regularly broken, to the point that it is not possible to hand-code a parser to read and interpret a sentence. If you attempt to hand-code a system to categorise building defect reports into groups, or extract structured data from them (let's say, to identify which room contains the scratched drywall), you will quickly hit a point of diminishing returns, where new documents contain wording or phrase structures that haven't been considered before. There are [thousands of languages in the world](https://academic.oup.com/book/998/chapter-abstract/137846362?redirectedFrom=fulltext), each with their own complex grammars. Words can be ambiguous, humans use slang, sarcasm, make spelling mistakes, or use metaphors and nuances, all of which can flummox a machine. The best we can hope for at the moment is to develop a statistically-trained model for a particular, very narrow, purpose - whether that's triaging construction reports for risk, identifying sentiment around drugs, or identifying key persons mentioned in a text. 
+
+# What are the stages of NLP?
+
+Traditionally, many NLP libraries, such as [spaCy](https://spacy.io/) or the [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.shtml), follow a series of steps to mould a sentence into something a computer can handle.
+
+Let's take the input text, "I love languages." This would typically go through a series of components to eventually output a parse tree.
+
+| Stage                 	| Output                                	|
+|-----------------------	|---------------------------------------	|
+| Tokeniser             	| "I", "love", "languages", "."         	|
+| Part of speech tagger 	| PRON, VERB, NOUN, PUNCT               	|
+| (Stemmer)             	| "i", "love", "language", "."          	|
+| Lemmatiser            	| "I", "love", "language", "."          	|
+| Parser                	| !(parse tree)[/assets/parse_tree.png] 	|
+
+However, in recent years the more statistical approach has taken hold, where an incoming document is tokenised and converted into a series of vectors using an algorithm such as [Word2vec](https://en.wikipedia.org/wiki/Word2vec) or a [Transformer](https://en.wikipedia.org/wiki/Transformer_\(machine_learning_model\)). The data can then be input into numerical models such as a classifier (*what kind of fault is this?*) or a risk model (*what is the risk of this error report escalating?*).
 
 # How can I learn NLP?
 
