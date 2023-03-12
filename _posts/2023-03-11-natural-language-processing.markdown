@@ -80,7 +80,7 @@ Let's take the input text, "I love languages." This would typically go through a
 | Part of speech tagger 	| PRON, VERB, NOUN, PUNCT               	|
 | (Stemmer)             	| "i", "love", "language", "."          	|
 | Lemmatiser            	| "I", "love", "language", "."          	|
-| Parser                	| !(parse tree)[/assets/parse_tree.png] 	|
+| Parser                	| ![parse tree](/assets/parse_tree.png) 	|
 
 However, in recent years the more statistical approach has taken hold, where an incoming document is tokenised and converted into a series of vectors using an algorithm such as [Word2vec](https://en.wikipedia.org/wiki/Word2vec) or a [Transformer](https://en.wikipedia.org/wiki/Transformer_\(machine_learning_model\)). The data can then be input into numerical models such as a classifier (*what kind of fault is this?*) or a risk model (*what is the risk of this error report escalating?*).
 
