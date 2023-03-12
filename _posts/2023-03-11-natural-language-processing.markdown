@@ -11,7 +11,7 @@ categories: natural language processing
 
 Has your boss ever asked you to make a summary in Excel of how much all your customers spend? If the data is in an Excel already, then the task is easy.
 
-But what if your company processes fixes to new-build houses. Every homeowner sends in a form with the problems (electrical fault, damp, damaged plasterboard) described in plain text. Your boss asks you to find the commonest construction faults. These are all in PDF files submitted by homeowners. How could you do this in Excel? Where would you even start?
+But what if your company processes fixes to new-build houses? Every homeowner sends in a form with the problems (electrical fault, damp, damaged plasterboard) described in plain text. Your boss asks you to find the commonest construction faults. These are all in PDF files submitted by homeowners. How could you do this in Excel? Where would you even start?
 
 ![homeowner](/assets/homeowner.gif)
 
