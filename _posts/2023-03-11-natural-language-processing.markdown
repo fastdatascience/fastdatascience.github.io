@@ -2,7 +2,8 @@
 layout: post
 title:  "Natural Language Processing"
 date:   2023-03-11 00:05:28 +0000
-categories: natural language processing
+permalink: natural-language-processing
+categories: natural_language_processing
 ---
 
 [Natural Language Processing](https://fastdatascience.com/portfolio/natural-language-processing/) is everything to do with getting computers to understand human language. It's a branch of AI but is really a mixture of disciplines such as linguistics, computer science, and engineering.
