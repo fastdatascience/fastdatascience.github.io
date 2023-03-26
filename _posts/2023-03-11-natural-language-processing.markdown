@@ -126,6 +126,8 @@ Finally, although [data science projects don't always lend themselves to traditi
 
 There are a number of other handy resources for NLP project planning and management on the [Resources](https://fastdatascience.com/resources/) section of our website.
 
+[![Natural Language Processing](/assets/video_thumbnail-min.jpg)](https://www.youtube.com/watch?v=Q2gPm_cwsYA "Natural Language Processing")
+
 {% include youtube.html id="Q2gPm_cwsYA" %}
 
 ## Getting started with Natural Language Processing
