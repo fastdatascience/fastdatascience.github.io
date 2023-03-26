@@ -14,7 +14,10 @@ Has your boss ever asked you to make a summary in Excel of how much all your cus
 
 But what if your company processes fixes to new-build houses? Every homeowner sends in a form with the problems (electrical fault, damp, damaged plasterboard) described in plain text. Your boss asks you to find the commonest construction faults. These are all in PDF files submitted by homeowners. How could you do this in Excel? Where would you even start?
 
-![homeowner](/assets/homeowner.gif)
+<video controls autoplay>
+  <source src="movie.mp4" type="/assets/homeowner/mp4">
+  Your browser does not support the video tag.
+</video>
 
 You might be tempted to read through a sample of the documents and summarise them qualitatively for your boss. Of course, this is not a bad idea, and will give you insights. But we can do more...
 
