@@ -128,8 +128,6 @@ There are a number of other handy resources for NLP project planning and managem
 
 [![Natural Language Processing](/assets/video_thumbnail-min.jpg)](https://www.youtube.com/watch?v=Q2gPm_cwsYA "Natural Language Processing")
 
-{% include youtube.html id="Q2gPm_cwsYA" %}
-
 ## Getting started with Natural Language Processing
 
 If you have a large number of unstructured documents and you are struggling to extract value from them, please get in touch with us at [fastdatascience.com](https://fastdatascience.com/contact-2/).
