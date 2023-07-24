@@ -45,5 +45,5 @@ Popular posts include
 
 # Contact
 
-You can contact us [on our website](https://fastdatascience.com/contact-2/).
+You can contact us [on our website](https://fastdatascience.com/contact/).
 
